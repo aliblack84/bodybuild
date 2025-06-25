@@ -99,7 +99,9 @@ h3 {
 }
 
 h4 {
-     font-size: 16px
+     font-size: 20px;
+     flex: 1;
+     text-align: right;
 }
 
 h5 {
