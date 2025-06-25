@@ -6,6 +6,10 @@
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Baloo+Chettan&display=swap');
+@font-face {
+     font-family: Estedad;
+     src: url('../fonts/Estedad-v7.3/ttf/Estedad-Medium.ttf');
+}
 
 /*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
  2) font-family: 'Poppins', sans-serif;
@@ -39,7 +43,7 @@ html {
 body {
      color: #666666;
      font-size: 14px;
-     font-family: 'Poppins', sans-serif;
+     font-family: 'Estedad', sans-serif;
      line-height: 1.80857;
      font-weight: normal;
 }
@@ -83,17 +87,15 @@ h6 {
 
 h1 {
      font-size: 24px;
-     font-family: 'Baloo Chettan', cursive;
+     
 }
 
 h2 {
      font-size: 22px;
-     font-family: 'Baloo Chettan', cursive;
 }
 
 h3 {
      font-size: 18px;
-     font-family: 'Baloo Chettan', cursive;
 }
 
 h4 {
@@ -369,7 +371,6 @@ button {
 
 
 .text-bg span {
-     font-family: 'Baloo Chettan', cursive;
      color: #70c0ba;
      font-size: 60px;
      font-weight: bold;
@@ -481,7 +482,6 @@ button {
 }
 
 .can {
-     font-family: 'Baloo Chettan', cursive;
      display: flex;
      align-items: center;
      flex-wrap: wrap;
@@ -507,7 +507,7 @@ button {
      line-height: 40px;
      font-weight: 500;
      padding: 0;
-     padding-left: 30px;
+     padding-right: 30px;
 }
 
 .amezing_box p {
@@ -692,7 +692,6 @@ ul.social_infomision {
 }
 
 ul.social_infomision li a {
-     font-family: 'Baloo Chettan', cursive;
      font-size: 48px;
      line-height: 49px;
      color: #0c0f38;
@@ -718,7 +717,6 @@ ul.social_infomision li img {
 
 .footer {
      border-top: #000 solid 1px;
-     font-family: Poppins;
      background: #0c0f38;
      padding-top: 50px;
 }
